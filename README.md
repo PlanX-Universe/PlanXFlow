@@ -16,7 +16,7 @@ PlanXFlow acts as a foundational guide, promoting a holistic understanding of AI
 9. **Monitoring**
 10. **Analysis**
 
-## Innovative Elements:
+## Innovative Elements
 
 PlanXFlow introduces and emphasizes crucial concepts often sidelined in the academic literature on AI planning:
 
