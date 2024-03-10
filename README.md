@@ -39,4 +39,5 @@ Your experience and insights are invaluable to the evolution of PlanXFlow. Wheth
 - **For academic research**: If you use PlanXFlow in your research work, please cite the following papers:
 
 [1] Georgievski, I. Software Development Lifecycle for Engineering AI Planning Systems. International Conference on Software Technologies, pages 751–760, 2023.
+
 [2] Georgievski, I. Conceptualising Software Development Lifecycle for Engineering AI Planning Systems. IEEE/ACM International Conference on AI Engineering – Software Engineering for AI, pages 88–89, 2023.
