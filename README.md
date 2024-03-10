@@ -35,8 +35,8 @@ PlanXFlow introduces and emphasizes crucial concepts often sidelined in the acad
 
 Your experience and insights are invaluable to the evolution of PlanXFlow. Whether applied in an industrial setting or academic research, sharing your thoughts can help enhance PlanXFlow for everyone.
 
-- **For industrial applications**: Please reach out to share how PlanX has been integrated and adapted for your projects.
-- **For academic research**: If PlanX has contributed to your research, please cite the following works:
+- **For industrial applications**: Please reach out to share how PlanXFlow has been integrated and adapted for your projects.
+- **For academic research**: If you use PlanXFlow in your research work, please cite the following papers:
 
 ```
 [1] Georgievski, I. Software Development Lifecycle for Engineering AI Planning Systems. In International Conference on Software Technologies, pages 751–760, 2023.
