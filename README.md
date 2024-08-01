@@ -5,16 +5,33 @@ PlanXFlow acts as a foundational guide, promoting a holistic understanding of AI
 
 ## The Ten Phases
 
-1. **Requirements Analysis**
-2. **Planning Model Formulation**
-3. **Domain Model Design**
-4. **System Design and Architecture**
-5. **Planning Technology Selection**
-6. **Implementation**
-7. **Testing**
-8. **Deployment**
-9. **Monitoring**
-10. **Analysis**
+<p align="center">
+  <img width="460" height="350" src="https://github.com/user-attachments/assets/73a7636d-29a0-41e1-a9e2-a83cd6f6d48f")
+>
+</p>
+
+
+1. **Requirements Analysis**: Identifying various requirements (functional, non-functional, domain-oriented, and user-related) and ensuring the system can support a wide range of functionalities, from modeling and solving planning problems to executing, validating, and managing the overall planning system.
+
+2. **AI Planning Model Formulation**: Creating a suitable planning model, defined by planning type, world context, and user features, as a blueprint for the AI planning system. This phase is critical and complex, requiring expertise to ensure the model meets functional and domain-specific requirements and adequately addresses different aspects of planning, such as actions, tasks, and environmental contexts.
+
+3. **Domain Model Design**: Involves creating a planning domain model by deriving domain information from requirements, conceptualizing and formalizing it using a planning language like PDDL or HDDL, and addressing challenges in domain modeling with tools and methodologies to aid the process.
+
+4. **System Design and Architecture**: Creating an abstract architecture that integrates various planning functionalities, using the planning model and domain model to ensure component compatibility and correct interactions. Given that existing planning tools are often developed in isolation, designing robust, flexible, and scalable AI planning systems involves conceptualizing these functionalities as services and coordinating them through workflows, addressing communication and interoperability issues effectively.
+
+5. **Planning Technology Selection**: Exploring and selecting existing domain-independent planning tools to meet required functionalities before implementing new components, leveraging the extensive range of available planners and tools despite their diverse operating systems, dependencies, and languages. However, identifying suitable tools is challenging due to the vast number of options and varying features, necessitating thorough research and analysis to integrate them effectively into planning systems.
+
+6. **Implementation**: Developing new planning components and communication mechanisms based on the system architecture, modifying planning domain models as needed, and following the classical software development lifecycle for each component.
+
+7. **Testing**: Involves validating and verifying the AI planning system against initial requirements through isolated and integration tests of all planning components, domain models, problem instances, and workflows.
+
+8. **Deployment**: Making the AI planning system ready for use by installing and configuring its components in an environment with sufficient processing power. While manual deployment is complex and error-prone, automated deployment is more suitable but still faces challenges, especially for distributed planning systems that require coordination across diverse environments.
+
+9. **Monitoring**: Involves tracking the planning system and its environment to understand their behavior, with a focus on collecting and processing data provenance to ensure process quality, reproducibility, and performance. Data provenance, categorized into Domain Knowledge, Planning Process, Plan, and System Data, is crucial for understanding and improving planning artifacts, establishing causality, responsibility, and explainability in AI planning systems.
+
+10. **Analysis**: focuses on examining data provenance to identify issues, generate insights, and improve various aspects of the planning system, thereby enabling traceability, reproducibility, and explainability, and guiding subsequent iterations and refinements.
+
+
 
 ## Innovative Elements
 
