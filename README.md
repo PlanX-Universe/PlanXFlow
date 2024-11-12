@@ -1,5 +1,5 @@
 # PlanXFlow
-Welcome to PlanXFlow, a software development lifecycle designed for engineering AI planning systems. PlanXFlow is developed with the ambition to provide a structured, waterfall-like yet iterative approach tailored to the unique challenges in AI planning. This lifecycle encompasses ten carefully designed phases, guiding practitioners and researchers from the conceptualization of AI planning systems to their deployment and beyond.
+Welcome to PlanXFlow, a software development lifecycle designed for engineering AI planning systems. PlanXFlow is developed with the ambition to provide a structured, waterfall-like yet iterative approach tailored to the unique challenges in AI planning. This lifecycle encompasses ten phases, guiding practitioners and researchers from the conceptualization of AI planning systems to their deployment and beyond.
 
 PlanXFlow acts as a foundational guide, promoting a holistic understanding of AI planning system development. It is designed to foster a common language among practitioners, researchers, and stakeholders, guiding them through the intricacies of AI planning.
 
@@ -11,25 +11,45 @@ PlanXFlow acts as a foundational guide, promoting a holistic understanding of AI
 </p>
 
 
-1. **Requirements Analysis**: Identifying various requirements (functional, non-functional, domain-oriented, and user-related) and ensuring the system can support a wide range of functionalities, from modeling and solving planning problems to executing, validating, and managing the overall planning system.
+**Requirements Analysis**
 
-2. **AI Planning Model Formulation**: Creating a suitable planning model, defined by planning type, world context, and user features, as a blueprint for the AI planning system. This phase is critical and complex, requiring expertise to ensure the model meets functional and domain-specific requirements and adequately addresses different aspects of planning, such as actions, tasks, and environmental contexts.
+Involves identifying various requirements (functional, non-functional, domain-oriented, and user-related) and ensuring the system can support a wide range of functionalities, from modeling and solving planning problems to executing and validating plans to managing the overall planning system.
 
-3. **Domain Model Design**: Involves creating a planning domain model by deriving domain information from requirements, conceptualizing and formalizing it using a planning language like PDDL or HDDL, and addressing challenges in domain modeling with tools and methodologies to aid the process.
+**AI Planning Model Formulation** 
 
-4. **System Design and Architecture**: Creating an abstract architecture that integrates various planning functionalities, using the planning model and domain model to ensure component compatibility and correct interactions. Given that existing planning tools are often developed in isolation, designing robust, flexible, and scalable AI planning systems involves conceptualizing these functionalities as services and coordinating them through workflows, addressing communication and interoperability issues effectively.
+Involves creating a suitable *planning model*, defined by planning type, world context, and user features, as a blueprint for the AI planning system. This phase is critical and complex and may require expertise to ensure the model meets functional and domain-specific requirements and adequately addresses different aspects of planning, such as actions, tasks, and environmental contexts.
 
-5. **Planning Technology Selection**: Exploring and selecting existing domain-independent planning tools to meet required functionalities before implementing new components, leveraging the extensive range of available planners and tools despite their diverse operating systems, dependencies, and languages. However, identifying suitable tools is challenging due to the vast number of options and varying features, necessitating thorough research and analysis to integrate them effectively into planning systems.
+**Domain Model Design** 
 
-6. **Implementation**: Developing new planning components and communication mechanisms based on the system architecture, modifying planning domain models as needed, and following the classical software development lifecycle for each component.
+Involves creating a *domain model* by deriving domain information mostly from domain-oriented requirements, conceptualizing and formalizing it using a planning language like PDD, HPDL, or HDDL, and addressing challenges in domain modeling with tools and methodologies to aid the process.
 
-7. **Testing**: Involves validating and verifying the AI planning system against initial requirements through isolated and integration tests of all planning components, domain models, problem instances, and workflows.
+**System Design and Architecture**
 
-8. **Deployment**: Making the AI planning system ready for use by installing and configuring its components in an environment with sufficient processing power. While manual deployment is complex and error-prone, automated deployment is more suitable but still faces challenges, especially for distributed planning systems that require coordination across diverse environments.
+Involves creating an abstract system architecture that integrates various planning functionalities, using the planning model and domain model to ensure component compatibility and correct interactions. Given that existing planning tools are often developed in isolation, designing robust, flexible, and scalable AI planning systems involves conceptualizing these functionalities as services and coordinating them through workflows, addressing communication and interoperability issues.
 
-9. **Monitoring**: Involves tracking the planning system and its environment to understand their behavior, with a focus on collecting and processing data provenance to ensure process quality, reproducibility, and performance. Data provenance, categorized into Domain Knowledge, Planning Process, Plan, and System Data, is crucial for understanding and improving planning artifacts, establishing causality, responsibility, and explainability in AI planning systems.
+**Planning Technology Selection**
 
-10. **Analysis**: focuses on examining data provenance to identify issues, generate insights, and improve various aspects of the planning system, thereby enabling traceability, reproducibility, and explainability, and guiding subsequent iterations and refinements.
+Involves exploring and selecting existing domain-independent planning tools to meet required functionalities before implementing new components, leveraging the extensive range of available planners and other tools. However, identifying suitable tools is challenging due to the vast number of options and varying features, necessitating thorough research and analysis to integrate them effectively into planning systems.
+
+**Implementation**
+
+Involves developing new planning components and communication mechanisms based on the system architecture, modifying planning domain models as needed, and potentially following the classical software development lifecycle for each component.
+
+**Testing**
+
+Involves validating and verifying the AI planning system against initial requirements through not only isolated tests, which is a common practice in the AI planning community, but also integration tests of all planning components, domain models, problem instances, and workflows.
+
+**Deployment**
+
+Involves making the AI planning system ready for use by installing and configuring its components in an environment with sufficient processing power. While manual deployment is complex and error-prone, automated deployment is more suitable but still faces challenges, especially for distributed planning systems that require coordination across diverse environments.
+
+**Monitoring**
+
+Involves tracking the planning system and its environment to understand their behavior, with a focus on collecting and processing provenance data to ensure process quality, reproducibility, and performance. Provenance data, such as data related to domain knowledge, planning process, plan, and system data, is crucial for understanding and improving planning artifacts, and establishing causality, responsibility, and explainability in AI planning systems.
+
+**Analysis**
+
+Involves examining provenance data to identify issues, generate insights, and improve various aspects of the planning system, thereby enabling traceability, reproducibility, and explainability and guiding subsequent iterations and refinements.
 
 
 
@@ -39,7 +59,7 @@ PlanXFlow introduces and emphasizes crucial concepts often sidelined in the acad
 
 - **Planning Model**: A conceptual model encompassing the interplay among a suitable planning type, relevant world context, and desired user features.
 - **Technology Selection**: Highlights the importance of choosing appropriate planning technologies and the necessary support for such decision-making.
-- **Data Provenance**: To ensure clarity and traceability of data sources and transformations throughout all lifecycle phases.
+- **Provenance Data**: To ensure clarity and traceability of data sources and transformations throughout all lifecycle phases.
 
 ## Core Features
 
